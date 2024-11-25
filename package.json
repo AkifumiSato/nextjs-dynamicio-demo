@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "clean-start": "next build && next start",
+    "lint": "biome check"
   },
   "dependencies": {
     "next": "15.0.4-canary.27",
