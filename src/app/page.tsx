@@ -14,6 +14,9 @@ export default function RootPage() {
           <li>
             <Link href="/dynamic_page">Dynamic Page</Link>
           </li>
+          <li>
+            <Link href="/cached_func">Cached Functions</Link>
+          </li>
         </ul>
       </main>
     </div>
